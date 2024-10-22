@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>fifa world cup</title>
+    <style>
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #BFDCB2;
+}
+
+#navbar {
+  width: 200px;
+  height: 100%;
+  background: #757F09;
+  margin-left: 0;
+  position: fixed; 
+}
+
+#main-doc {
+  position: relative;
+  left: 200px; 
+  height: 100vh;
+  background: #BFDCB2;
+  width: calc(100% - 200px);
+}
+
+section {
+  text-align: center;
+  padding: 3px;
+  border-bottom: 2px solid green;
+}
+
+h1, h2 {
+  letter-spacing: 2px;
+  font-family: "Quicksand", sans-serif;
+  background: #E2E8C8;
+  padding: 10px;
+}
+
+h1 {
+  margin: 3px auto;
+  font-size: 1.6rem;
+}
+
+h2 {
+  height: 50px;
+  margin: 15 0 5px;
+  font-size: 1.4rem;
+}
+
+p {
+  margin: 2px 5px;
+  font-family: "Roboto Mono";
+  letter-spacing: 0.1px;
+  font-weight: 300;
+  background: #BFDCB2;
+}
+
+section a {
+  color: #757F09;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.years {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+li {
+  padding: 7px;
+}
+
+table {
+  border-collapse: collapse;
+  background: inherit;
+  width: 100%;
+  table-layout: fixed;
+}
+
+caption {
+  
+  height: 30px;
+  margin: 15px 1px 0 1px;
+  background: #757F09;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: 800;
+  letter-spacing: 3px;
+  padding-top: 6px;
+}
+
+thead {
+  background: #757F09;
+  font-weight: 400;
+  color: #fffee3
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#hosts {
+  border: none;
+}
+
+span {
+  font-size: 0.8rem;
+}
+
+nav h2 {
+  margin: 0 auto ;
+}
+
+nav > header {
+  height: 300px;
+  background-color: #E2E8C8;
+}
+.logo {
+  height: 200px;
+  background: url("https://cdn.britannica.com/85/139485-050-BCF84C18/FIFA-World-Cup-trophy.jpg?w=300");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav ul {
+  margin: 20px 0;
+  padding: 0;
+}
+
+@media (max-width: 400px) {
+  #navbar {
+    background: #FFF;
+    width: 50vw;
+  }
+
+  #main-doc {
+    left: 50vw;
+    width: calc(100% - 50vw);
+  }
+}
+    </style>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>
+        <h2>Mundial <span>de copa</span></h2>
+        <div class="logo"></div>
+      </header>
+      <ul>
+        <li><a href="#fifa_world_cup" class="nav-link">FIFA World Cup</a></li>
+        <li><a href="#format" class="nav-link">Format</a></li>
+        <li><a href="#awards" class="nav-link">Awards</a></li>
+        <li><a href="#hosts" class="nav-link">Hosts</a></li>
+        <li><a href="#results" class="nav-link">Results</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section id="fifa_world_cup" class="main-section header">
+        <header>
+          <h1>FIFA World Cup</h1>
+        </header>
+        <p><a href="https://en.wikipedia.org/wiki/FIFA_World_Cup" target="_blank">FIFA World Cup</a> is an international football competition among the men's national teams. <a href="https://en.wikipedia.org/wiki/FIFA" target="_blank">FIFA</a> (Fédération Internationale de Football Association) itself is world <code>"governor"</code> of football.</p> <p>Tournament is held every 4years since the <a href="https://en.wikipedia.org/wiki/1930_FIFA_World_Cup" target="_blank">first</a> ever world cup tournament in <span class="years">1930</span>, except of <span class="years">1942-46</span> due to World War. Reigning champion is <a href="https://en.wikipedia.org/wiki/Argentina_national_football_team" target="_blank">Argentina</a> who won last world cup in <span class="years">2022</span>.</p>
+      </section>
+      <section id="format" class="main-section format">
+        <header>
+          <h2>Format</h2>
+        </header>
+        <p>Since the <a href="https://en.wikipedia.org/wiki/1934_FIFA_World_Cup" target="_blank">second</a> World Cup in <span class="years">1934</span>, qualifying tournaments have been held to thin the field for the final tournament. They are held within the six FIFA continental zones (<a href="https://en.wikipedia.org/wiki/Confederation_of_African_Football" target="_blank">Africa</a>, <a href="https://en.wikipedia.org/wiki/Asian_Football_Confederation" target="_blank">Asia</a>, <a href="https://en.wikipedia.org/wiki/CONCACAF" target="_blank">North and Central America and Caribbean</a>, <a href="https://en.wikipedia.org/wiki/CONMEBOL" target="_blank">South America</a>, <a href="https://en.wikipedia.org/wiki/Oceania_Football_Confederation" target="_blank">Oceania</a>, and <a href="https://en.wikipedia.org/wiki/UEFA" target="_blank">Europe</a>), overseen by their respective confederations. For each tournament, FIFA decides the number of places awarded to each of the continental zones beforehand, generally based on the relative strength of the confederations' teams.</p>
+        <p>The final tournament format since <span class="years">1998</span> has had 32 national teams competing over the course of a month in the host nations. There are two stages: the group stage, followed by the knockout stage.In the group stage, teams compete within eight groups of four teams each. Eight teams are seeded, including the hosts, with the other seeded teams selected using a formula based on the FIFA World <a href="https://en.wikipedia.org/wiki/FIFA_World_Rankings" target="_blank">Rankings</a> or performances in recent World Cups, and drawn to separate groups. The other teams are assigned to different "pots", usually based on geographical criteria, and teams in each pot are drawn at random to the eight groups.</p> <p>Since <span class="years">1998</span>, constraints have been applied to the draw to ensure that no group contains more than two European teams or more than one team from any other confederation.Each group plays a round-robin tournament in which each team is scheduled for three matches against other teams in the same group. This means that a <code>total</code> of six matches are played within a group. The last round of matches of each group is scheduled at the same time to preserve fairness among all four teams.</p> <p>The top two teams from each group advance to the knockout stage. Points are used to rank the teams within a group. Since <span class="years"><code>1994</code></span>, three points have been awarded for a win, one for a draw and none for a loss (before, winners received two points).</p><p>Considering six matches in a group each with three possible outcomes (win, draw, loss), there are 729 (= 36) possible final table outcomes for the 40 possible combinations of the four teams' points. However, 14 of the 40 points combinations (or 207 of the 729 possible outcomes) lead to ties between the second and third places. In such case, the ranking among these teams is determined by: Greatest combined goal difference in all group matches</p>
+        <p>Greatest combined number of goals scored in all group matches</p>
+<p>If more than one team remain level after applying the above criteria, their ranking will be determined as follows:
+Greatest number of points in head-to-head matches among those teams
+Greatest goal difference in head-to-head matches among those teams
+Greatest number of goals scored in head-to-head matches among those teams
+Fair play points, defined by the number of yellow and red cards received in the group stage:
+Yellow card: minus 1 point
+Indirect red card (as a result of a second yellow card): minus 3 points
+Direct <code>red</code> card: minus 4 points
+Yellow card and direct red card: minus 5 points  The knockout stage is a single-elimination tournament in which teams play each other in one-off matches, with extra time and penalty shootouts used to decide the winner if necessary. It begins with the round of 16 (or the second round) in which the <code>winner</code> of each group plays against the runner-up of another group. This is followed by the quarter-finals, the semi-finals, the third-place match (contested by the losing semi-finalists), and the final.On <span class="years">10 January 2017</span>, FIFA approved a new format, the 48-team World Cup (to accommodate more teams), which was to consist of 16 groups of three teams each, with two teams qualifying from each group, to form a round of 32 knockout stage, to be implemented by <span class="years">2026</span>. <span class="years">On 14 March 2023</span>, FIFA approved a revised format of the <span class="years">2026</span> tournament, which features 12 groups of four teams each, with the top 8 third-placed teams joining the group winners and runners-up in a new round of 32.</p>
+      </section>
+      <section id="awards" class="main-section awards">
+        <header>
+          <h2>Awards</h2>  
+        </header>
+        <p>At the end of each World Cup, awards are presented to the players and teams for accomplishments other than their final team positions in the tournament.</p>
+        <ul>
+        <li>The Golden Ball for best player, first awarded in <span class="years">1982</span></li>
+        <li>The Golden Glove for best goalkeeper, first awarded in <span class="years">1994</span></li>
+        <li>The FIFA Young Player Award for best player under 21 years of age at the start of the calendar year, first awarded in <span class="years">2006</span></li>
+        <li>the FIFA Fair Play Trophy for the team that advanced to the second round with the best record of fair play, first awarded in <span class="years">1970</span>.</li>
+        <li>the Player of the Match for outstanding performance during each match of the tournament, first awarded in <span class="years">2002</span>.</li>
+        <li>the Goal of the Tournament, for the fans' best goal scored during the tournament, first awarded in <span class="years">2006</span></li>
+        <li>the Most Entertaining Team during the World Cup final tournament, as determined by a poll of the general public.</li>
+        <li>an All-Star Team comprising the best players of the tournament chosen by the FIFA Technical Study Group. From <span class="years">2010</span> onwards, all Dream Teams or Statistical Teams are unofficial, as reported by FIFA itself.</li>
+          </ul>
+      </section>
+      <section id="hosts" class="main-section hosts">
+        <header>
+          <h2>Hosts</h2>
+        </header>
+        <table class="host-content-table">
+          <caption>Summary by confederation</caption>
+          <thead>
+            <tr>
+              <th>Confederation</th>
+              <th>Times hosted</th>
+              <th>Hosts</th>
+              <th>Upcoming hosts</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>UEFA <br>(Europe)</td>
+              <td>11</td>
+              <td>1934 Italy, 1938 France, 1954 Switzerland, 1958 Sweden, 1966 England, 1974 West Germany, 1982 Spain, 1990 Italy, 1998 France, 2006 Germany, 2018 Russia</td>
+              <td>2030 Spain-Portugal</td>
+            </tr>
+            <tr>
+              <td>Conmebol <br>(South America)</td>
+              <td>5</td>
+              <td>1930 Uruguay, 1950 Brazil, 1962 Chile, 1978 Argentina, 2014 Brazil</td>
+              <td>None</td>
+            </tr>
+            <tr>
+              <td>Concacaf <br>(North and Central America and Caribbean)</td>         
+              <td>3</td>
+              <td>1970 Mexico, 1984 Mexico, 1994 USA</td>
+              <td>2026 Canada-Mexico-USA</td>
+            </tr>
+            <tr>
+              <td>AFC <br>(Asia)</td>
+              <td>2</td>
+              <td>2002 Korea-Japan, 2022 Qatar</td>
+              <td>2034 Saudi Arabia</td> 
+            </tr>
+            <tr>
+              <td>CAF <br>(Africa)</td>
+              <td>1</td>
+              <td>2010 South Africa</td>
+              <td>2030 Morocco</td>
+            </tr>
+            <tr>
+              <td>OFC <br>(Oceania)</td>
+              <td>None</td>
+              <td>None</td>
+              <td>None</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="results" class="main-section results">
+        <header>
+          <h2>Results</h2>
+        </header>
+        <table>
+          <caption>List of World Cup Winners</caption>
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Host</th>
+              <th>Final</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1930</td>
+              <td>Uruguay</td>
+              <td>Uruguay vs Argentina <br>4-2</td>
+            </tr>
+            <tr>
+              <td>1934</td>
+              <td>Italy</td>
+              <td>Italy vs Czechoslovakia <br>2-1(a.e.t)</td>
+            </tr>
+            <tr>
+              <td>1938</td>
+              <td>France</td>
+              <td>Italy vs Hungary <br>4-2</td>
+            </tr>
+            <tr>
+              <td>1950</td>
+              <td>Brazil</td>
+              <td>Uruguay vs Brazil <br>2-1</td>
+            </tr>
+            <tr>
+              <td>1954</td>
+              <td>Switzerland</td>
+              <td>West Germany vs Hungary <br>3-2</td>
+            </tr>
+            <tr>
+              <td>1958</td>
+              <td>Sweden</td>
+              <td>Brazil vs Sweden <br>5-2</td>
+            </tr>
+            <tr>
+              <td>1962</td>
+              <td>Chile</td>
+              <td>Brazil vs Czechoslovakia <br>3-1</td>
+            </tr>
+            <tr>
+              <td>1966</td>
+              <td>England</td>
+              <td>England vs West Germany <br>4-2 (a.e.t)</td>
+            </tr>
+            <tr>
+              <td>1970</td>
+              <td>Mexico</td>
+              <td>Brazil vs Italy <br>4-1</td>
+            </tr>
+            <tr>
+              <td>1974 </td>
+              <td>West Germany</td>
+              <td>West Germany vs Netherlands <br>2-1</td>
+            </tr>
+            <tr>
+              <td>1978</td>
+              <td>Argentina</td>
+              <td>Argentina vs Netherlands <br>3-1(a.e.t)</td>
+            </tr>
+            <tr>
+              <td>1982</td>
+              <td>Spain</td>
+              <td>Italy vs West Germany <br>3-1</td>
+            </tr>
+            <tr>
+              <td>1986</td>
+              <td>Mexico</td>
+              <td>Argentina vs West Germany <br>3-2</td>
+            </tr>
+            <tr>
+              <td>1990</td>
+              <td>Italy</td>
+              <td>West Germany vs Argentina <br>1-0</td>
+            </tr>
+            <tr>
+              <td>1994</td>
+              <td>USA</td>
+              <td>Brazil vs Italy 0-0 <br>(3-2 P)</td>
+            </tr>
+            <tr>
+              <td>1998</td>
+              <td>France</td>
+              <td>France vs Brazil <br>3-0</td>
+            </tr>
+            <tr>
+              <td>2002</td>
+              <td>Korea-Japan</td>
+              <td>Brazil vs Germany <br>2-0</td>
+            </tr>
+            <tr>
+              <td>2006</td>
+              <td>Germany</td>
+              <td>Italy vs France <br>1-1 (5-3 P)</td>
+            </tr>
+            <tr>
+              <td>2010</td>
+              <td>South Africa</td>
+              <td>Spain vs Netherlands  <br>1-0 (a.e.t)</td>
+            </tr>
+            <tr>
+              <td>2014</td>
+              <td>Brazil</td>
+              <td>Germany vs Argentina <br>1-0 (a.e.t)</td>
+            </tr>
+            <tr>
+              <td>2018</td>
+              <td>Russia</td>
+              <td>France vs Croatia <br>4-2</td>
+            </tr>
+            <tr>
+              <td>2022</td>
+              <td>Qatar</td>
+              <td>Argentina vs France <br>3-3 (4-2 P)</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
